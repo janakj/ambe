@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package ambe.rpc;
+
+service AmbeService {
+  rpc bind (stream Packet) returns (stream Packet) {}
+  rpc ping (stream Ping)   returns (stream Ping)   {}
+}
+
+
+message Packet {
+  int32 tag    = 1;  // Server will mirror this value supplied by client in the request in the response to the request.
+  bytes data   = 2;  // An entire AMBE packet to be sent to the device.
+}
+
+
+message Ping {
+  bytes data = 1;
+}

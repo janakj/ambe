@@ -1,0 +1,7 @@
+/.obj
+/libambe.a
+/libambe.so
+/ambed
+/ambec
+*.pb.cc
+*.pb.h
