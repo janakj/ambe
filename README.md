@@ -9,7 +9,9 @@ The following three components are available:
 
 The library has been designed for DVSI's [family of USB devices](https://www.dvsinc.com/products/usb_3k.shtml#interop) and has been tested with [USB-3000 and USB-3003](https://www.dvsinc.com/products/usb_3k.shtml). In general, the code should be easy to adapt for any device based on the family of [AMBE-3000](https://www.dvsinc.com/products/a300x.shtml) chips with only a minimal effort.
 
-This project was created by [Jan Janak](https://www.cs.columbia.edu/~janakj), [Artiom Baloian](mailto:ab4659@columbia.edu), and [Henning Schulzrinne](https://www.cs.columbia.edu/~hgs).
+The program uses Linux-specific serial port ioctls and will thus only compile on Linux.
+
+Developed by [Jan Janak](https://www.cs.columbia.edu/~janakj), [Artiom Baloian](mailto:ab4659@columbia.edu), and [Henning Schulzrinne](https://www.cs.columbia.edu/~hgs).
 
 ## Installation
 
