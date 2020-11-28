@@ -76,7 +76,7 @@ ambe_decompress(samples, &sample_count, handle, bits, bit_count);
 ```
 The decoded sample data will be stored in the variable `samples` which must point to a buffer large enough. The number of samples will be written to `sample_count`.
 
-Both functions return 0 on success, a negative number on error (timeout).
+Both functions return 0 on success and a negative number on error (timeout).
 
 Invoke `ambe_close` to release any resources that might be held by the library when your program is done compressing/decompressing:
 ```c
