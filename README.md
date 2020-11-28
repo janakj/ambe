@@ -13,7 +13,7 @@ This project was created by [Jan Janak](https://www.cs.columbia.edu/~janakj), [A
 
 ## Installation
 
-If you only wish to build the shared library for use in your programs, please make sure the following dependencies are installed: [Protocol Buffers](https://github.com/google/protobuf/) libraries and compiler, [gRPC](https://github.com/google/protobuf/) libraries, gRPC plugins for the Protocol Buffers compiler. On a Debian-based Linux distribution you can install everything as follows:
+If you only wish to build the shared library for use in your programs, please make sure the following dependencies are installed: [Protocol Buffers](https://github.com/google/protobuf/) libraries and compiler, [gRPC](https://github.com/google/protobuf/) libraries, gRPC plugins for the Protocol Buffers compiler. On a Debian-based Linux distributions you can install everything as follows:
 ```sh
 apt install libprotobuf-dev  protobuf-compiler libgrpc-dev libgrpc++-dev protobuf-compiler-grpc
 ```
