@@ -126,6 +126,7 @@ clean: $(alldep)
 	rm -rf .obj *.pb.cc *.pb.h $(lib_name).so $(lib_name).a $(server_name) $(client_name)
 
 
+$(DESTDIR)$(prefix)$(usr)bin           \
 $(DESTDIR)$(prefix)$(usr)sbin          \
 $(DESTDIR)$(prefix)$(usr)lib           \
 $(DESTDIR)$(prefix)$(usr)lib/pkgconfig \
